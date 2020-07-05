@@ -6,3 +6,9 @@ def sys_clear():
         os.system('cls')
     else:
         os.system('clear')
+
+def sys_flush():
+    os.sys.stdout.flush()
+
+def sys_write(text, args):
+    os.sys.stdout.write(text, % (args))
